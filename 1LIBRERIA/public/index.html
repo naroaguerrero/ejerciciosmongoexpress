@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="inputsGenericos">
+      <input type="text" placeholder="Título del libro" id="buscar" />
+      <button onclick="buscar()">Buscar</button>
+      <button onclick="mostrarLista()">Todos</button>
+      
+      <input type="text" placeholder="Título libro nuevo" id="crear" />
+      <button onclick="crear()">Añadir</button>
+
+      <input type="text" placeholder="Libro leido" id="leido" />
+      <button onclick="leido()">Leido</button>
+      
+      <input type="text" id="borrar" />
+      <button onclick="borrar()">Borrar</button> 
+    </div>
+    <div id="feedback"></div>
+    <div id="libros"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
